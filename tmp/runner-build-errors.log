@@ -1,0 +1,5 @@
+# maulibra/enigma_school/api-master/domain/teacher
+api-master\domain\teacher\teacherRepositoryImpl.go:15:9: cannot use &teacherDB literal (type *teacherDB) as type TeacherRepository in return argument:
+	*teacherDB does not implement TeacherRepository (wrong type for PostTeacher method)
+		have PostTeacher(*Teacher) (*Teacher, error)
+		want PostTeacher(*Teacher) error
